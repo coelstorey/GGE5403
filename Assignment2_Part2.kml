@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Assignment2Part2.kml</name>
+	<open>1</open>
+	<Folder>
+	<name>Dolan's Pub</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-66.64483</longitude>
+			<latitude>45.96286</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>Dolan's Pub</name>
+			<description><![CDATA[<h2>Dolan's Pub</h2>
+				<img src="dolans.png" width="230" height="172"><br>
+				<a href="http://www.dolans.ca">http://www.dolans.ca</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-66.64483,45.96286,0</coordinates>
+			</Point>
+		</Placemark>
+		<name>Dolan's Pub</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-66.64483</longitude>
+			<latitude>45.96286</latitude>
+			<altitude>0</altitude>
+			<range>192.2089882256726</range>
+			<tilt>47.6770540588911</tilt>
+			<heading>-11.65093403216848</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<Placemark>
+			<name>The Boat</name>
+			<description><![CDATA[<h2>The Boat</h2>
+				<img src="boat.jpg" width="230" height="172"><br>
+				<a href="https://www.cityofnorthbay.ca/living/recreation/marina/">https://www.cityofnorthbay.ca/living/recreation/marina/</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-79.47082,46.31053,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>The Crazy Cactus</name>
+			<description><![CDATA[<h2>The Crazy Cactus</h2>
+				<img src="crazycactus.jpg" width="230" height="172"><br>
+				<a href="https://www.crazycactusyxe.com/">https://www.crazycactusyxe.com/</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-106.6724708,52.1256623,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Jasper Brewing Company</name>
+			<description><![CDATA[<h2>Jasper Brewing Company</h2>
+				<img src="jasper.jpg" width="230" height="172"><br>
+				<a href="http://www.jasperbrewingco.ca/">http://www.jasperbrewingco.ca/</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-118.081,52.87446,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Alibi Room</name>
+			<description><![CDATA[<h2>Alibi Room</h2>
+				<img src="alibi.jpg" width="230" height="172"><br>
+				<a href="http://www.alibi.ca/">http://www.alibi.ca/</a>]]></description>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-123.1002,49.28424,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Style id="blueLine">
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+
+		<Placemark>
+			<name>Path</name>
+			<styleUrl>#blueLine</styleUrl>
+			<LineString>
+					<altitudeMode>relative</altitudeMode>
+					<coordinates>
+					-66.64483,45.96286,0
+					-79.47082,46.31053,0
+					-106.6724708,52.1256623,0
+					-118.081,52.87446,0
+					-123.1002,49.28424,0
+					</coordinates>
+				</LineString>
+			</Placemark>
+
+			<Folder>
+				<name>Cross Canadian Pub Tour</name>
+				<open>1</open>
+				<Style id="beer_img">
+					<IconStyle>
+						<color>1DAB99</color>
+						<scale>1.5</scale>
+						<Icon>
+							<href>
+							https://www.iconfinder.com/icons/286549/beer_mug_beermug_snack_icon
+							</href>
+						</Icon>
+					</IconStyle>
+				</Style>
+
+
+			<Placemark>
+				<TimeSpan>
+					<begin>2018-01-01T08:00:00Z</begin>
+					<end>2018-01-01T08:00:30Z</end>
+				</TimeSpan>
+				<styleUrl>#beer_img</styleUrl>
+					<Point><coordinates>-66.64483,45.96286,0</coordinates></Point>
+				</Placemark>
+
+			<Placemark>
+				<TimeStamp>
+					<begin>2018-01-02T08:00:00Z</begin>
+					<end>2018-01-02T08:00:30Z</end>
+				</TimeStamp>
+				<styleUrl>#beer_img</styleUrl>
+					<Point><coordinates>-79.47082,46.31053,0</coordinates></Point>
+			</Placemark>
+
+			<Placemark>
+				<TimeStamp>
+					<begin>2018-01-03T08:00:00Z</begin>
+					<end>2018-01-03T08:00:30Z</end>
+				</TimeStamp>
+				<styleUrl>#beer_img</styleUrl>
+					<Point><coordinates>-106.6651,52.12582,0</coordinates></Point>
+			</Placemark>
+
+			<Placemark>
+				<TimeStamp>
+					<begin>2018-01-04T08:00:00Z</begin>
+					<end>2018-01-04T08:00:30Z</end>
+				</TimeStamp>
+				<styleUrl>#beer_img</styleUrl>
+					<Point><coordinates>-118.081,52.87446,0</coordinates></Point>
+			</Placemark>
+
+			<Placemark>
+				<TimeStamp>
+					<begin>2018-01-05T08:00:00Z</begin>
+					<end>2018-01-05T08:00:30Z</end>
+				</TimeStamp>
+				<styleUrl>#beer_img</styleUrl>
+					<Point><coordinates>-123.1002,49.28424,0</coordinates></Point>
+			</Placemark>
+</Folder>
+</Folder>
+
+</Document>
+</kml>
