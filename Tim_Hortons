@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Tim_Hortons" id="Tim_Hortons">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>Tim_Hortons</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Tim_Hortons">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.6396435939732,45.9598111671015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Tim_Hortons">
+		<SimpleData name="id">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.6556626401035,45.9599404863538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Tim_Hortons">
+		<SimpleData name="id">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.6330621808691,45.9693034509339</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Tim_Hortons">
+		<SimpleData name="id">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.6471091127762,45.9753058014453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-66.6523365777673,45.9890536693696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-66.6613725429694,45.9397975816303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-66.6414104622962,45.945290298789</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
